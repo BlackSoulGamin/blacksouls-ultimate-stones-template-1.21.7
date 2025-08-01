@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "blacksouls-ultimate-stones",
+	"version": "${version}",
+	"name": "BlackSouls Ultimate Stones",
+	"description": "This is a mod to add new stone variants (e.g. smooth, cobbled, chiseled, etc.) and allows for the cobbled variant of some stones to be used in place of cobblestone in most recipes",
+	"authors": [
+		"BlackSoul"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/blacksouls-ultimate-stones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blacksoul.blacksoulsultimatestones.BlackSoulsUltimateStones"
+		],
+		"fabric-datagen": [
+			"net.blacksoul.blacksoulsultimatestones.BlackSoulsUltimateStonesDataGenerator"
+		],
+		"client": [
+			"net.blacksoul.blacksoulsultimatestones.BlackSoulsUltimateStonesClient"
+		]
+	},
+	"mixins": [
+		"blacksouls-ultimate-stones.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
