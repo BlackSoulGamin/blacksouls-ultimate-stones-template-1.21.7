@@ -73,6 +73,10 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.ANDESITE_BRICKS);
+            entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
+            entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
+            entries.add(ModBlocks.ANDESITE_BRICK_WALL);
+
         });
     }
 }

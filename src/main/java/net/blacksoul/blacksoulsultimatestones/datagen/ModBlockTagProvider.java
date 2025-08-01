@@ -21,7 +21,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.ANDESITE_BRICK_STAIRS)
                 .add(ModBlocks.ANDESITE_BRICK_WALL);
 
-        valueLookupBuilder(BlockTags.FENCES)
+        valueLookupBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ANDESITE_BRICK_WALL);
 
     }
