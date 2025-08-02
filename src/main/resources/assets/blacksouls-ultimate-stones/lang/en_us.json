@@ -4,5 +4,41 @@
   "block.blacksouls-ultimate-stones.andesite_brick_slab": "Andesite Brick Slab",
   "block.blacksouls-ultimate-stones.andesite_brick_wall": "Andesite Brick Wall",
 
-  "itemgroup.blacksouls-ultimate-stones.blacksouls-ultimate-stones": "BlackSoul's Ultimate Stones"
+  "block.blacksouls-ultimate-stones.andesite_pillar": "Andesite Pillar",
+
+  "block.blacksouls-ultimate-stones.andesite_tiles": "Andesite Tiles",
+  "block.blacksouls-ultimate-stones.andesite_tile_stairs": "Andesite Tile Stairs",
+  "block.blacksouls-ultimate-stones.andesite_tile_slab": "Andesite Tile Slab",
+  "block.blacksouls-ultimate-stones.andesite_tile_wall": "Andesite Tile Wall",
+
+  "block.blacksouls-ultimate-stones.chiseled_andesite": "Chiseled Andesite",
+
+  "block.blacksouls-ultimate-stones.cobbled_andesite": "Cobbled Andesite",
+  "block.blacksouls-ultimate-stones.cobbled_andesite_stairs": "Cobbled Andesite Stairs",
+  "block.blacksouls-ultimate-stones.cobbled_andesite_slab": "Cobbled Andesite Slab",
+  "block.blacksouls-ultimate-stones.cobbled_andesite_wall": "Cobbled Andesite Wall",
+
+  "block.blacksouls-ultimate-stones.cracked_andesite_bricks": "Cracked Andesite Bricks",
+  "block.blacksouls-ultimate-stones.cracked_andesite_brick_stairs": "Cracked Andesite Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_andesite_brick_slab": "Cracked Andesite Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_andesite_brick_wall": "Cracked Andesite Brick Wall",
+
+  "block.blacksouls-ultimate-stones.cut_andesite": "Cut Andesite",
+  "block.blacksouls-ultimate-stones.cut_andesite_stairs": "Cut Andesite Stairs",
+  "block.blacksouls-ultimate-stones.cut_andesite_slab": "Cut Andesite Slab",
+  "block.blacksouls-ultimate-stones.cut_andesite_wall": "Cut Andesite Wall",
+
+  "block.blacksouls-ultimate-stones.dark_andesite": "Dark Andesite",
+  "block.blacksouls-ultimate-stones.dark_andesite_stairs": "Dark Andesite Stairs",
+  "block.blacksouls-ultimate-stones.dark_andesite_slab": "Dark Andesite Slab",
+  "block.blacksouls-ultimate-stones.dark_andesite_wall": "Dark Andesite Wall",
+
+  "block.blacksouls-ultimate-stones.polished_andesite_wall": "Polished Andesite Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_andesite": "Smooth Andesite",
+  "block.blacksouls-ultimate-stones.smooth_andesite_stairs": "Smooth Andesite Stairs",
+  "block.blacksouls-ultimate-stones.smooth_andesite_slab": "Smooth Andesite Slab",
+  "block.blacksouls-ultimate-stones.smooth_andesite_wall": "Smooth Andesite Wall",
+
+  "itemgroup.blacksouls-ultimate-stones": "BlackSoul's Ultimate Stones"
 }
