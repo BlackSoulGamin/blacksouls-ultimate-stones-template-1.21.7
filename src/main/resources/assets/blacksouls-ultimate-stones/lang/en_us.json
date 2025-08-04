@@ -1,4 +1,53 @@
 {
+  "block.minecraft.smooth_stone" : "Smoothstone",
+  "block.blacksouls-ultimate-stones.smoothstone_stairs": "Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.smoothstone_wall": "Smoothstone Wall",
+
+  "block.blacksouls-ultimate-stones.smoothstone_bricks": "Smoothstone Bricks",
+  "block.blacksouls-ultimate-stones.smoothstone_brick_stairs": "Smoothstone Brick Stairs",
+  "block.blacksouls-ultimate-stones.smoothstone_brick_slab": "Smoothstone Brick Slab",
+  "block.blacksouls-ultimate-stones.smoothstone_brick_wall": "Smoothstone Brick Wall",
+
+  "block.blacksouls-ultimate-stones.smoothstone_pillar": "Smoothstone Pillar",
+
+  "block.blacksouls-ultimate-stones.smoothstone_tiles": "Smoothstone Tiles",
+  "block.blacksouls-ultimate-stones.smoothstone_tile_stairs": "Smoothstone Tile Stairs",
+  "block.blacksouls-ultimate-stones.smoothstone_tile_slab": "Smoothstone Tile Slab",
+  "block.blacksouls-ultimate-stones.smoothstone_tile_wall": "Smoothstone Tile Wall",
+
+  "block.blacksouls-ultimate-stones.chiseled_smoothstone": "Chiseled Smoothstone",
+
+  "block.blacksouls-ultimate-stones.cobbled_smoothstone": "Cobbled Smoothstone",
+  "block.blacksouls-ultimate-stones.cobbled_smoothstone_stairs": "Cobbled Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.cobbled_smoothstone_slab": "Cobbled Smoothstone Slab",
+  "block.blacksouls-ultimate-stones.cobbled_smoothstone_wall": "Cobbled Smoothstone Wall",
+
+  "block.blacksouls-ultimate-stones.cracked_smoothstone_bricks": "Cracked Smoothstone Bricks",
+  "block.blacksouls-ultimate-stones.cracked_smoothstone_brick_stairs": "Cracked Smoothstone Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_smoothstone_brick_slab": "Cracked Smoothstone Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_smoothstone_brick_wall": "Cracked Smoothstone Brick Wall",
+
+  "block.blacksouls-ultimate-stones.cut_smoothstone": "Cut Smoothstone",
+  "block.blacksouls-ultimate-stones.cut_smoothstone_stairs": "Cut Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.cut_smoothstone_slab": "Cut Smoothstone Slab",
+  "block.blacksouls-ultimate-stones.cut_smoothstone_wall": "Cut Smoothstone Wall",
+
+  "block.blacksouls-ultimate-stones.dark_smoothstone": "Dark Smoothstone",
+  "block.blacksouls-ultimate-stones.dark_smoothstone_stairs": "Dark Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.dark_smoothstone_slab": "Dark Smoothstone Slab",
+  "block.blacksouls-ultimate-stones.dark_smoothstone_wall": "Dark Smoothstone Wall",
+
+  "block.blacksouls-ultimate-stones.polished_smoothstone": "Polished Smoothstone",
+  "block.blacksouls-ultimate-stones.polished_smoothstone_stairs": "Polished Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.polished_smoothstone_slab": "Polished Smoothstone Slab",
+  "block.blacksouls-ultimate-stones.polished_smoothstone_wall": "Polished Smoothstone Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_smoothstone": "Smooth Smoothstone",
+  "block.blacksouls-ultimate-stones.smooth_smoothstone_stairs": "Smooth Smoothstone Stairs",
+  "block.blacksouls-ultimate-stones.smooth_smoothstone_slab": "Smooth Smoothstone Slab",
+  "block.blacksouls-ultimate-stones.smooth_smoothstone_wall": "Smooth Smoothstone Wall",
+
+
   "block.blacksouls-ultimate-stones.andesite_bricks": "Andesite Bricks",
   "block.blacksouls-ultimate-stones.andesite_brick_stairs": "Andesite Brick Stairs",
   "block.blacksouls-ultimate-stones.andesite_brick_slab": "Andesite Brick Slab",
@@ -39,6 +88,90 @@
   "block.blacksouls-ultimate-stones.smooth_andesite_stairs": "Smooth Andesite Stairs",
   "block.blacksouls-ultimate-stones.smooth_andesite_slab": "Smooth Andesite Slab",
   "block.blacksouls-ultimate-stones.smooth_andesite_wall": "Smooth Andesite Wall",
+
+
+  "block.blacksouls-ultimate-stones.diorite_bricks": "Diorite Bricks",
+  "block.blacksouls-ultimate-stones.diorite_brick_stairs": "Diorite Brick Stairs",
+  "block.blacksouls-ultimate-stones.diorite_brick_slab": "Diorite Brick Slab",
+  "block.blacksouls-ultimate-stones.diorite_brick_wall": "Diorite Brick Wall",
+
+  "block.blacksouls-ultimate-stones.diorite_pillar": "Diorite Pillar",
+
+  "block.blacksouls-ultimate-stones.diorite_tiles": "Diorite Tiles",
+  "block.blacksouls-ultimate-stones.diorite_tile_stairs": "Diorite Tile Stairs",
+  "block.blacksouls-ultimate-stones.diorite_tile_slab": "Diorite Tile Slab",
+  "block.blacksouls-ultimate-stones.diorite_tile_wall": "Diorite Tile Wall",
+
+  "block.blacksouls-ultimate-stones.chiseled_diorite": "Chiseled Diorite",
+
+  "block.blacksouls-ultimate-stones.cobbled_diorite": "Cobbled Diorite",
+  "block.blacksouls-ultimate-stones.cobbled_diorite_stairs": "Cobbled Diorite Stairs",
+  "block.blacksouls-ultimate-stones.cobbled_diorite_slab": "Cobbled Diorite Slab",
+  "block.blacksouls-ultimate-stones.cobbled_diorite_wall": "Cobbled Diorite Wall",
+
+  "block.blacksouls-ultimate-stones.cracked_diorite_bricks": "Cracked Diorite Bricks",
+  "block.blacksouls-ultimate-stones.cracked_diorite_brick_stairs": "Cracked Diorite Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_diorite_brick_slab": "Cracked Diorite Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_diorite_brick_wall": "Cracked Diorite Brick Wall",
+
+  "block.blacksouls-ultimate-stones.cut_diorite": "Cut Diorite",
+  "block.blacksouls-ultimate-stones.cut_diorite_stairs": "Cut Diorite Stairs",
+  "block.blacksouls-ultimate-stones.cut_diorite_slab": "Cut Diorite Slab",
+  "block.blacksouls-ultimate-stones.cut_diorite_wall": "Cut Diorite Wall",
+
+  "block.blacksouls-ultimate-stones.dark_diorite": "Dark Diorite",
+  "block.blacksouls-ultimate-stones.dark_diorite_stairs": "Dark Diorite Stairs",
+  "block.blacksouls-ultimate-stones.dark_diorite_slab": "Dark Diorite Slab",
+  "block.blacksouls-ultimate-stones.dark_diorite_wall": "Dark Diorite Wall",
+
+  "block.blacksouls-ultimate-stones.polished_diorite_wall": "Polished Diorite Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_diorite": "Smooth Diorite",
+  "block.blacksouls-ultimate-stones.smooth_diorite_stairs": "Smooth Diorite Stairs",
+  "block.blacksouls-ultimate-stones.smooth_diorite_slab": "Smooth Diorite Slab",
+  "block.blacksouls-ultimate-stones.smooth_diorite_wall": "Smooth Diorite Wall",
+
+
+  "block.blacksouls-ultimate-stones.granite_bricks": "Granite Bricks",
+  "block.blacksouls-ultimate-stones.granite_brick_stairs": "Granite Brick Stairs",
+  "block.blacksouls-ultimate-stones.granite_brick_slab": "Granite Brick Slab",
+  "block.blacksouls-ultimate-stones.granite_brick_wall": "Granite Brick Wall",
+
+  "block.blacksouls-ultimate-stones.granite_pillar": "Granite Pillar",
+
+  "block.blacksouls-ultimate-stones.granite_tiles": "Granite Tiles",
+  "block.blacksouls-ultimate-stones.granite_tile_stairs": "Granite Tile Stairs",
+  "block.blacksouls-ultimate-stones.granite_tile_slab": "Granite Tile Slab",
+  "block.blacksouls-ultimate-stones.granite_tile_wall": "Granite Tile Wall",
+
+  "block.blacksouls-ultimate-stones.chiseled_granite": "Chiseled Granite",
+
+  "block.blacksouls-ultimate-stones.cobbled_granite": "Cobbled Granite",
+  "block.blacksouls-ultimate-stones.cobbled_granite_stairs": "Cobbled Granite Stairs",
+  "block.blacksouls-ultimate-stones.cobbled_granite_slab": "Cobbled Granite Slab",
+  "block.blacksouls-ultimate-stones.cobbled_granite_wall": "Cobbled Granite Wall",
+
+  "block.blacksouls-ultimate-stones.cracked_granite_bricks": "Cracked Granite Bricks",
+  "block.blacksouls-ultimate-stones.cracked_granite_brick_stairs": "Cracked Granite Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_granite_brick_slab": "Cracked Granite Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_granite_brick_wall": "Cracked Granite Brick Wall",
+
+  "block.blacksouls-ultimate-stones.cut_granite": "Cut Granite",
+  "block.blacksouls-ultimate-stones.cut_granite_stairs": "Cut Granite Stairs",
+  "block.blacksouls-ultimate-stones.cut_granite_slab": "Cut Granite Slab",
+  "block.blacksouls-ultimate-stones.cut_granite_wall": "Cut Granite Wall",
+
+  "block.blacksouls-ultimate-stones.dark_granite": "Dark Granite",
+  "block.blacksouls-ultimate-stones.dark_granite_stairs": "Dark Granite Stairs",
+  "block.blacksouls-ultimate-stones.dark_granite_slab": "Dark Granite Slab",
+  "block.blacksouls-ultimate-stones.dark_granite_wall": "Dark Granite Wall",
+
+  "block.blacksouls-ultimate-stones.polished_granite_wall": "Polished Granite Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_granite": "Smooth Granite",
+  "block.blacksouls-ultimate-stones.smooth_granite_stairs": "Smooth Granite Stairs",
+  "block.blacksouls-ultimate-stones.smooth_granite_slab": "Smooth Granite Slab",
+  "block.blacksouls-ultimate-stones.smooth_granite_wall": "Smooth Granite Wall",
 
   "itemgroup.blacksouls-ultimate-stones": "BlackSoul's Ultimate Stones"
 }
