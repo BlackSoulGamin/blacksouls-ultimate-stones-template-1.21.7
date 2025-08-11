@@ -77,6 +77,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS)
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL)
 
+                //STONE
+                .add(ModBlocks.STONE_WALL)
+
+                //STONE PILLAR
+                .add(ModBlocks.STONE_PILLAR)
+
+                //STONE TILES
+                .add(ModBlocks.STONE_TILES)
+                .add(ModBlocks.STONE_TILE_SLAB)
+                .add(ModBlocks.STONE_TILE_STAIRS)
+                .add(ModBlocks.STONE_TILE_WALL)
+
+                //CRACKED STONE BRICKS
+                .add(ModBlocks.CRACKED_STONE_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL)
+
+                //CUT STONE
+                .add(ModBlocks.CUT_STONE)
+                .add(ModBlocks.CUT_STONE_SLAB)
+                .add(ModBlocks.CUT_STONE_STAIRS)
+                .add(ModBlocks.CUT_STONE_WALL)
+
+                //DARK STONE
+                .add(ModBlocks.DARK_STONE)
+                .add(ModBlocks.DARK_STONE_SLAB)
+                .add(ModBlocks.DARK_STONE_STAIRS)
+                .add(ModBlocks.DARK_STONE_WALL)
+
+                //POLISHED STONE
+                .add(ModBlocks.POLISHED_STONE)
+                .add(ModBlocks.POLISHED_STONE_SLAB)
+                .add(ModBlocks.POLISHED_STONE_STAIRS)
+                .add(ModBlocks.POLISHED_STONE_WALL)
+
+                //SMOOTH STONE
+                .add(ModBlocks.SMOOTH_STONE)
+                .add(ModBlocks.SMOOTH_STONE_SLAB)
+                .add(ModBlocks.SMOOTH_STONE_STAIRS)
+                .add(ModBlocks.SMOOTH_STONE_WALL)
+
                 //ANDESITE
                 .add(Blocks.ANDESITE)
 
@@ -267,6 +308,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 //SMOOTH SMOOTHSTONE
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL)
 
+                //STONE
+                .add(ModBlocks.STONE_WALL)
+
+                //STONE TILES
+                .add(ModBlocks.STONE_TILE_WALL)
+
+                //CRACKED STONE BRICKS
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL)
+
+                //CUT STONE
+                .add(ModBlocks.CUT_STONE_WALL)
+
+                //DARK STONE
+                .add(ModBlocks.DARK_STONE_WALL)
+
+                //POLISHED STONE
+                .add(ModBlocks.POLISHED_STONE_WALL)
+
+                //SMOOTH STONE
+                .add(ModBlocks.SMOOTH_STONE_WALL)
+
                 //ANDESITE
 
                 //ANDESITE BRICKS
@@ -373,6 +435,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 //SMOOTH SMOOTHSTONE
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS)
 
+                //STONE
+
+                //STONE TILES
+                .add(ModBlocks.STONE_TILE_STAIRS)
+
+                //CRACKED STONE BRICKS
+                .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS)
+
+                //CUT STONE
+                .add(ModBlocks.CUT_STONE_STAIRS)
+
+                //DARK STONE
+                .add(ModBlocks.DARK_STONE_STAIRS)
+
+                //POLISHED STONE
+                .add(ModBlocks.POLISHED_STONE_STAIRS)
+
+                //SMOOTH STONE
+                .add(ModBlocks.SMOOTH_STONE_STAIRS)
+
                 //ANDESITE
 
                 //ANDESITE BRICKS
@@ -468,6 +550,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
 
                 //SMOOTH SMOOTHSTONE
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB)
+
+                //STONE
+
+                //STONE TILES
+                .add(ModBlocks.STONE_TILE_SLAB)
+
+                //CRACKED STONE BRICKS
+                .add(ModBlocks.CRACKED_STONE_BRICK_SLAB)
+
+                //CUT STONE
+                .add(ModBlocks.CUT_STONE_SLAB)
+
+                //DARK STONE
+                .add(ModBlocks.DARK_STONE_SLAB)
+
+                //POLISHED STONE
+                .add(ModBlocks.POLISHED_STONE_SLAB)
+
+                //SMOOTH STONE
+                .add(ModBlocks.SMOOTH_STONE_SLAB)
 
                 //ANDESITE
 

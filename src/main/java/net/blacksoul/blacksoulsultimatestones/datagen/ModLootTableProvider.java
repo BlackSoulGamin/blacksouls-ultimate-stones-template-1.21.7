@@ -76,6 +76,44 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
         addDrop(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB, slabDrops(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB));
 
+        //STONE
+        addDrop(ModBlocks.STONE_WALL);
+
+        //STONE PILLAR
+        addDrop(ModBlocks.STONE_PILLAR);
+
+        //STONE TILES
+        addDrop(ModBlocks.STONE_TILES);
+        addDrop(ModBlocks.STONE_TILE_STAIRS);
+        addDrop(ModBlocks.STONE_TILE_WALL);
+        addDrop(ModBlocks.STONE_TILE_SLAB, slabDrops(ModBlocks.STONE_TILE_SLAB));
+
+        //CRACKED STONE BRICKS
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_SLAB, slabDrops(ModBlocks.CRACKED_STONE_BRICK_SLAB));
+
+        //CUT STONE
+        addDrop(ModBlocks.CUT_STONE);
+        addDrop(ModBlocks.CUT_STONE_STAIRS);
+        addDrop(ModBlocks.CUT_STONE_WALL);
+        addDrop(ModBlocks.CUT_STONE_SLAB, slabDrops(ModBlocks.CUT_STONE_SLAB));
+
+        //DARK STONE
+        addDrop(ModBlocks.DARK_STONE);
+        addDrop(ModBlocks.DARK_STONE_STAIRS);
+        addDrop(ModBlocks.DARK_STONE_WALL);
+        addDrop(ModBlocks.DARK_STONE_SLAB, slabDrops(ModBlocks.DARK_STONE_SLAB));
+
+        //POLISHED STONE
+        addDrop(ModBlocks.POLISHED_STONE_WALL);
+
+        //SMOOTH STONE
+        addDrop(ModBlocks.SMOOTH_STONE);
+        addDrop(ModBlocks.SMOOTH_STONE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_STONE_WALL);
+        addDrop(ModBlocks.SMOOTH_STONE_SLAB, slabDrops(ModBlocks.SMOOTH_STONE_SLAB));
+
         //ANDESITE
         addDrop(Blocks.ANDESITE, stoneDrops(Blocks.ANDESITE, ModBlocks.COBBLED_ANDESITE));
 

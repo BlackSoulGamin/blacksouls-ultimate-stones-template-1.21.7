@@ -18,7 +18,6 @@ import java.util.function.Function;
 
 public class ModBlocks {
     //SMOOTHSTONE
-
     public static final Block SMOOTHSTONE_STAIRS = registerBlock(
             "smoothstone_stairs", properties  -> new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(), properties
                     .mapColor(MapColor.STONE_GRAY)
@@ -354,6 +353,246 @@ public class ModBlocks {
 
     public static final Block SMOOTH_SMOOTHSTONE_WALL = registerBlock(
             "smooth_smoothstone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //STONE
+    public static final Block STONE_WALL = registerBlock(
+            "stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //STONE PILLAR
+    public static final Block STONE_PILLAR = registerBlock(
+            "stone_pillar", properties  -> new PillarBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    //STONE TILES
+    public static final Block STONE_TILES = registerBlock(
+            "stone_tiles", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block STONE_TILE_STAIRS = registerBlock(
+            "stone_tile_stairs", properties  -> new StairsBlock(ModBlocks.STONE_TILES.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block STONE_TILE_SLAB = registerBlock(
+            "stone_tile_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block STONE_TILE_WALL = registerBlock(
+            "stone_tile_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //CRACKED STONE BRICKS
+    public static final Block CRACKED_STONE_BRICK_STAIRS = registerBlock(
+            "cracked_stone_brick_stairs", properties  -> new StairsBlock(Blocks.CRACKED_STONE_BRICKS.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CRACKED_STONE_BRICK_SLAB = registerBlock(
+            "cracked_stone_brick_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CRACKED_STONE_BRICK_WALL = registerBlock(
+            "cracked_stone_brick_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //CUT STONE
+    public static final Block CUT_STONE = registerBlock(
+            "cut_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_STONE_STAIRS = registerBlock(
+            "cut_stone_stairs", properties  -> new StairsBlock(ModBlocks.CUT_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_STONE_SLAB = registerBlock(
+            "cut_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_STONE_WALL = registerBlock(
+            "cut_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //DARK STONE
+    public static final Block DARK_STONE = registerBlock(
+            "dark_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_STONE_STAIRS = registerBlock(
+            "dark_stone_stairs", properties  -> new StairsBlock(ModBlocks.DARK_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_STONE_SLAB = registerBlock(
+            "dark_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_STONE_WALL = registerBlock(
+            "dark_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //POLISHED STONE
+    public static final Block POLISHED_STONE = registerBlock(
+            "polished_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_STONE_STAIRS = registerBlock(
+            "polished_stone_stairs", properties  -> new StairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_STONE_SLAB = registerBlock(
+            "polished_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_STONE_WALL = registerBlock(
+            "polished_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //SMOOTH STONE
+    public static final Block SMOOTH_STONE = registerBlock(
+            "smooth_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_STONE_STAIRS = registerBlock(
+            "smooth_stone_stairs", properties  -> new StairsBlock(ModBlocks.SMOOTH_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_STONE_SLAB = registerBlock(
+            "smooth_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_STONE_WALL = registerBlock(
+            "smooth_stone_wall", properties  -> new WallBlock(properties
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
@@ -1338,6 +1577,47 @@ public class ModBlocks {
             entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
             entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
             entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
+
+            //STONE
+            entries.add(ModBlocks.STONE_WALL);
+
+            //STONE PILLAR
+            entries.add(ModBlocks.STONE_PILLAR);
+
+            //STONE TILES
+            entries.add(ModBlocks.STONE_TILES);
+            entries.add(ModBlocks.STONE_TILE_STAIRS);
+            entries.add(ModBlocks.STONE_TILE_SLAB);
+            entries.add(ModBlocks.STONE_TILE_WALL);
+
+            //CRACKED STONE BRICKS
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_WALL);
+
+            //CUT STONE
+            entries.add(ModBlocks.CUT_STONE);
+            entries.add(ModBlocks.CUT_STONE_STAIRS);
+            entries.add(ModBlocks.CUT_STONE_SLAB);
+            entries.add(ModBlocks.CUT_STONE_WALL);
+
+            //DARK STONE
+            entries.add(ModBlocks.DARK_STONE);
+            entries.add(ModBlocks.DARK_STONE_STAIRS);
+            entries.add(ModBlocks.DARK_STONE_SLAB);
+            entries.add(ModBlocks.DARK_STONE_WALL);
+
+            //POLISHED STONE
+            entries.add(ModBlocks.POLISHED_STONE);
+            entries.add(ModBlocks.POLISHED_STONE_STAIRS);
+            entries.add(ModBlocks.POLISHED_STONE_SLAB);
+            entries.add(ModBlocks.POLISHED_STONE_WALL);
+
+            //SMOOTH STONE
+            entries.add(ModBlocks.SMOOTH_STONE);
+            entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_STONE_SLAB);
+            entries.add(ModBlocks.SMOOTH_STONE_WALL);
 
             //ANDESITE
 

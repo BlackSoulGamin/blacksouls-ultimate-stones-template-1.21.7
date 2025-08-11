@@ -26,6 +26,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             @Override
             public void generate() {
                 //SMOOTHSTONE
+                List<ItemConvertible> SMOOTHSTONE_SMELTABLES = List.of(ModBlocks.SMOOTH_STONE, ModBlocks.COBBLED_SMOOTHSTONE);
+                offerSmelting(SMOOTHSTONE_SMELTABLES, RecipeCategory.BUILDING_BLOCKS, Blocks.SMOOTH_STONE, 0.1f, 200, "stone");
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTHSTONE_STAIRS, Blocks.SMOOTH_STONE);
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTHSTONE_WALL, Blocks.SMOOTH_STONE);
                 createStairsRecipe(ModBlocks.SMOOTHSTONE_STAIRS, Ingredient.ofItems(Blocks.SMOOTH_STONE))
@@ -87,8 +89,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_SMOOTHSTONE, Blocks.SMOOTH_STONE);
 
                 //COBBLED SMOOTHSTONE
-                List<ItemConvertible> SMOOTHSTONE_SMELTABLES = List.of(ModBlocks.COBBLED_SMOOTHSTONE);
-                offerSmelting(SMOOTHSTONE_SMELTABLES, RecipeCategory.BUILDING_BLOCKS, Blocks.SMOOTH_STONE, 0.1f, 200, "smoothstone");
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLED_SMOOTHSTONE_SLAB, ModBlocks.COBBLED_SMOOTHSTONE);
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLED_SMOOTHSTONE_STAIRS, ModBlocks.COBBLED_SMOOTHSTONE);
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLED_SMOOTHSTONE_WALL, ModBlocks.COBBLED_SMOOTHSTONE);
@@ -203,6 +203,136 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("###")
                         .input('#', ModBlocks.SMOOTH_SMOOTHSTONE)
                         .criterion(hasItem(ModBlocks.SMOOTH_SMOOTHSTONE), conditionsFromItem(ModBlocks.SMOOTH_SMOOTHSTONE))
+                        .offerTo(exporter);
+
+                //STONE
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', Blocks.STONE)
+                        .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
+                        .offerTo(exporter);
+
+                //STONE PILLAR
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_PILLAR, Blocks.STONE);
+
+                //STONE TILES
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILES, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_SLAB, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_STAIRS, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_WALL, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_SLAB, ModBlocks.STONE_TILES);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_STAIRS, ModBlocks.STONE_TILES);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_WALL, ModBlocks.STONE_TILES);
+                createStairsRecipe(ModBlocks.STONE_TILE_STAIRS, Ingredient.ofItems(ModBlocks.STONE_TILES))
+                        .criterion(hasItem(ModBlocks.STONE_TILES), conditionsFromItem(ModBlocks.STONE_TILES))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_SLAB, Ingredient.ofItems(ModBlocks.STONE_TILES))
+                        .criterion(hasItem(ModBlocks.STONE_TILES), conditionsFromItem(ModBlocks.STONE_TILES))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_TILE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.STONE_TILES)
+                        .criterion(hasItem(ModBlocks.STONE_TILES), conditionsFromItem(ModBlocks.STONE_TILES))
+                        .offerTo(exporter);
+
+                //CRACKED STONE BRICKS
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICK_SLAB, Blocks.CRACKED_STONE_BRICKS);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICK_STAIRS, Blocks.CRACKED_STONE_BRICKS);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICK_WALL, Blocks.CRACKED_STONE_BRICKS);
+                createStairsRecipe(ModBlocks.CRACKED_STONE_BRICK_STAIRS, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS))
+                        .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICK_SLAB, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS))
+                        .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICK_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', Blocks.CRACKED_STONE_BRICKS)
+                        .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
+                        .offerTo(exporter);
+
+                //CUT STONE
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_SLAB, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_STAIRS, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_WALL, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_SLAB, ModBlocks.CUT_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_STAIRS, ModBlocks.CUT_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_WALL, ModBlocks.CUT_STONE);
+                createStairsRecipe(ModBlocks.CUT_STONE_STAIRS, Ingredient.ofItems(ModBlocks.CUT_STONE))
+                        .criterion(hasItem(ModBlocks.CUT_STONE), conditionsFromItem(ModBlocks.CUT_STONE))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_SLAB, Ingredient.ofItems(ModBlocks.CUT_STONE))
+                        .criterion(hasItem(ModBlocks.CUT_STONE), conditionsFromItem(ModBlocks.CUT_STONE))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STONE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.CUT_STONE)
+                        .criterion(hasItem(ModBlocks.CUT_STONE), conditionsFromItem(ModBlocks.CUT_STONE))
+                        .offerTo(exporter);
+
+                //DARK STONE
+                createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE)
+                        .input(Blocks.STONE)
+                        .input(Items.BLACK_DYE)
+                        .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE_SLAB, ModBlocks.DARK_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE_STAIRS, ModBlocks.DARK_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE_WALL, ModBlocks.DARK_STONE);
+                createStairsRecipe(ModBlocks.DARK_STONE_STAIRS, Ingredient.ofItems(ModBlocks.DARK_STONE))
+                        .criterion(hasItem(ModBlocks.DARK_STONE), conditionsFromItem(ModBlocks.DARK_STONE))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE_SLAB, Ingredient.ofItems(ModBlocks.DARK_STONE))
+                        .criterion(hasItem(ModBlocks.DARK_STONE), conditionsFromItem(ModBlocks.DARK_STONE))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_STONE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.DARK_STONE)
+                        .criterion(hasItem(ModBlocks.DARK_STONE), conditionsFromItem(ModBlocks.DARK_STONE))
+                        .offerTo(exporter);
+
+                //POLISHED STONE
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_SLAB, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_STAIRS, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_WALL, Blocks.STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_SLAB, ModBlocks.POLISHED_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_STAIRS, ModBlocks.POLISHED_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_WALL, ModBlocks.POLISHED_STONE);
+                createStairsRecipe(ModBlocks.POLISHED_STONE_STAIRS, Ingredient.ofItems(ModBlocks.POLISHED_STONE))
+                        .criterion(hasItem(ModBlocks.POLISHED_STONE), conditionsFromItem(ModBlocks.POLISHED_STONE))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_SLAB, Ingredient.ofItems(ModBlocks.POLISHED_STONE))
+                        .criterion(hasItem(ModBlocks.POLISHED_STONE), conditionsFromItem(ModBlocks.POLISHED_STONE))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_STONE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.POLISHED_STONE)
+                        .criterion(hasItem(ModBlocks.POLISHED_STONE), conditionsFromItem(ModBlocks.POLISHED_STONE))
+                        .offerTo(exporter);
+
+                //SMOOTH STONE
+                List<ItemConvertible> SMOOTH_STONE_SMELTABLES = List.of(Blocks.STONE);
+                offerSmelting(SMOOTH_STONE_SMELTABLES, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE, 0.1f, 200, "stone");
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_SLAB, ModBlocks.SMOOTH_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_STAIRS, ModBlocks.SMOOTH_STONE);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_WALL, ModBlocks.SMOOTH_STONE);
+                createStairsRecipe(ModBlocks.SMOOTH_STONE_STAIRS, Ingredient.ofItems(ModBlocks.SMOOTH_STONE))
+                        .criterion(hasItem(ModBlocks.SMOOTH_STONE), conditionsFromItem(ModBlocks.SMOOTH_STONE))
+                        .offerTo(exporter);
+                createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_SLAB, Ingredient.ofItems(ModBlocks.SMOOTH_STONE))
+                        .criterion(hasItem(ModBlocks.SMOOTH_STONE), conditionsFromItem(ModBlocks.SMOOTH_STONE))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_WALL, 6)
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.SMOOTH_STONE)
+                        .criterion(hasItem(ModBlocks.SMOOTH_STONE), conditionsFromItem(ModBlocks.SMOOTH_STONE))
                         .offerTo(exporter);
 
                 //ANDESITE

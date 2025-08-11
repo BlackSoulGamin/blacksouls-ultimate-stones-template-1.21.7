@@ -71,6 +71,46 @@ public class ModModelProvider extends FabricModelProvider {
         smoothSmoothstonePool.slab(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
         smoothSmoothstonePool.wall(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
 
+        //STONE
+        BlockStateModelGenerator.BlockTexturePool stonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
+        stonePool.wall(ModBlocks.STONE_WALL);
+
+        //STONE PILLAR
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.STONE_PILLAR, TexturedModel.END_FOR_TOP_CUBE_COLUMN);
+
+        //STONE TILES
+        BlockStateModelGenerator.BlockTexturePool stoneTilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STONE_TILES);
+        stoneTilePool.stairs(ModBlocks.STONE_TILE_STAIRS);
+        stoneTilePool.slab(ModBlocks.STONE_TILE_SLAB);
+        stoneTilePool.wall(ModBlocks.STONE_TILE_WALL);
+
+        //CRACKED STONE BRICKS
+        BlockStateModelGenerator.BlockTexturePool crackedStoneBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
+        crackedStoneBrickPool.stairs(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+        crackedStoneBrickPool.slab(ModBlocks.CRACKED_STONE_BRICK_SLAB);
+        crackedStoneBrickPool.wall(ModBlocks.CRACKED_STONE_BRICK_WALL);
+
+        //CUT STONE
+        blockStateModelGenerator.registerSingleton(ModBlocks.CUT_STONE, TexturedModel.END_FOR_TOP_CUBE_COLUMN);
+
+        //DARK STONE
+        BlockStateModelGenerator.BlockTexturePool darkStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_STONE);
+        darkStonePool.stairs(ModBlocks.DARK_STONE_STAIRS);
+        darkStonePool.slab(ModBlocks.DARK_STONE_SLAB);
+        darkStonePool.wall(ModBlocks.DARK_STONE_WALL);
+
+        //POLISHED STONE
+        BlockStateModelGenerator.BlockTexturePool polishedStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_STONE);
+        polishedStonePool.stairs(ModBlocks.POLISHED_STONE_STAIRS);
+        polishedStonePool.slab(ModBlocks.POLISHED_STONE_SLAB);
+        polishedStonePool.wall(ModBlocks.POLISHED_STONE_WALL);
+
+        //SMOOTH STONE
+        BlockStateModelGenerator.BlockTexturePool smoothStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE);
+        smoothStonePool.stairs(ModBlocks.SMOOTH_STONE_STAIRS);
+        smoothStonePool.slab(ModBlocks.SMOOTH_STONE_SLAB);
+        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
+
         //ANDESITE
 
         //ANDESITE BRICKS

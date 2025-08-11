@@ -73,6 +73,47 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
                         entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
 
+                        //STONE
+                        entries.add(ModBlocks.STONE_WALL);
+
+                        //STONE PILLAR
+                        entries.add(ModBlocks.STONE_PILLAR);
+
+                        //STONE TILES
+                        entries.add(ModBlocks.STONE_TILES);
+                        entries.add(ModBlocks.STONE_TILE_STAIRS);
+                        entries.add(ModBlocks.STONE_TILE_SLAB);
+                        entries.add(ModBlocks.STONE_TILE_WALL);
+
+                        //CRACKED STONE BRICKS
+                        entries.add(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICK_SLAB);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICK_WALL);
+
+                        //CUT STONE
+                        entries.add(ModBlocks.CUT_STONE);
+                        entries.add(ModBlocks.CUT_STONE_STAIRS);
+                        entries.add(ModBlocks.CUT_STONE_SLAB);
+                        entries.add(ModBlocks.CUT_STONE_WALL);
+
+                        //DARK STONE
+                        entries.add(ModBlocks.DARK_STONE);
+                        entries.add(ModBlocks.DARK_STONE_STAIRS);
+                        entries.add(ModBlocks.DARK_STONE_SLAB);
+                        entries.add(ModBlocks.DARK_STONE_WALL);
+
+                        //POLISHED STONE
+                        entries.add(ModBlocks.POLISHED_STONE);
+                        entries.add(ModBlocks.POLISHED_STONE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_STONE_SLAB);
+                        entries.add(ModBlocks.POLISHED_STONE_WALL);
+
+                        //SMOOTH STONE
+                        entries.add(ModBlocks.SMOOTH_STONE);
+                        entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STONE_SLAB);
+                        entries.add(ModBlocks.SMOOTH_STONE_WALL);
+
                         //ANDESITE
 
                         //ANDESITE BRICKS
