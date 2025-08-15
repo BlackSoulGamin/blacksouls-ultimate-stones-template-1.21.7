@@ -114,6 +114,51 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_STONE_WALL);
         addDrop(ModBlocks.SMOOTH_STONE_SLAB, slabDrops(ModBlocks.SMOOTH_STONE_SLAB));
 
+        //MOSSY STONE
+        addDrop(Blocks.SMOOTH_STONE, stoneDrops(Blocks.SMOOTH_STONE, Blocks.MOSSY_COBBLESTONE));
+        addDrop(ModBlocks.MOSSY_STONE_STAIRS);
+        addDrop(ModBlocks.MOSSY_STONE_WALL);
+        addDrop(ModBlocks.MOSSY_STONE_SLAB, slabDrops(ModBlocks.MOSSY_STONE_SLAB));
+
+        //MOSSY STONE PILLAR
+        addDrop(ModBlocks.MOSSY_STONE_PILLAR);
+
+        //MOSSY STONE TILES
+        addDrop(ModBlocks.MOSSY_STONE_TILES);
+        addDrop(ModBlocks.MOSSY_STONE_TILE_STAIRS);
+        addDrop(ModBlocks.MOSSY_STONE_TILE_WALL);
+        addDrop(ModBlocks.MOSSY_STONE_TILE_SLAB, slabDrops(ModBlocks.MOSSY_STONE_TILE_SLAB));
+
+        //CHISELED MOSSY STONE
+        addDrop(ModBlocks.CHISELED_MOSSY_STONE);
+
+        //CRACKED MOSSY STONE BRICKS
+        addDrop(ModBlocks.CRACKED_MOSSY_STONE_BRICKS);
+        addDrop(ModBlocks.CRACKED_MOSSY_STONE_BRICK_STAIRS);
+        addDrop(ModBlocks.CRACKED_MOSSY_STONE_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_MOSSY_STONE_BRICK_SLAB, slabDrops(ModBlocks.CRACKED_MOSSY_STONE_BRICK_SLAB));
+
+        //CUT MOSSY STONE
+        addDrop(ModBlocks.CUT_MOSSY_STONE);
+        addDrop(ModBlocks.CUT_MOSSY_STONE_STAIRS);
+        addDrop(ModBlocks.CUT_MOSSY_STONE_WALL);
+        addDrop(ModBlocks.CUT_MOSSY_STONE_SLAB, slabDrops(ModBlocks.CUT_MOSSY_STONE_SLAB));
+
+        //DARK MOSSY STONE
+        addDrop(ModBlocks.DARK_MOSSY_STONE);
+        addDrop(ModBlocks.DARK_MOSSY_STONE_STAIRS);
+        addDrop(ModBlocks.DARK_MOSSY_STONE_WALL);
+        addDrop(ModBlocks.DARK_MOSSY_STONE_SLAB, slabDrops(ModBlocks.DARK_MOSSY_STONE_SLAB));
+
+        //POLISHED MOSSY STONE
+        addDrop(ModBlocks.POLISHED_MOSSY_STONE_WALL);
+
+        //SMOOTH MOSSY STONE
+        addDrop(ModBlocks.SMOOTH_MOSSY_STONE);
+        addDrop(ModBlocks.SMOOTH_MOSSY_STONE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_MOSSY_STONE_WALL);
+        addDrop(ModBlocks.SMOOTH_MOSSY_STONE_SLAB, slabDrops(ModBlocks.SMOOTH_MOSSY_STONE_SLAB));
+
         //ANDESITE
         addDrop(Blocks.ANDESITE, stoneDrops(Blocks.ANDESITE, ModBlocks.COBBLED_ANDESITE));
 
@@ -275,6 +320,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_GRANITE_STAIRS);
         addDrop(ModBlocks.SMOOTH_GRANITE_WALL);
         addDrop(ModBlocks.SMOOTH_GRANITE_SLAB, slabDrops(ModBlocks.SMOOTH_GRANITE_SLAB));
+
+        //DEEPSLATE
+
+        //CRACKED DEEPSLATE BRICKS
+        addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICK_STAIRS);
+        addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICK_SLAB, slabDrops(ModBlocks.CRACKED_DEEPSLATE_BRICK_SLAB));
+
+        //DARK DEEPSLATE
+        addDrop(ModBlocks.DARK_DEEPSLATE);
+        addDrop(ModBlocks.DARK_DEEPSLATE_STAIRS);
+        addDrop(ModBlocks.DARK_DEEPSLATE_WALL);
+        addDrop(ModBlocks.DARK_DEEPSLATE_SLAB, slabDrops(ModBlocks.DARK_DEEPSLATE_SLAB));
+
+        //DEEPSLATE PILLAR
+        addDrop(ModBlocks.DEEPSLATE_PILLAR);
+
+        //SMOOTH DEEPSLATE
+        addDrop(ModBlocks.SMOOTH_DEEPSLATE);
+        addDrop(ModBlocks.SMOOTH_DEEPSLATE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_DEEPSLATE_WALL);
+        addDrop(ModBlocks.SMOOTH_DEEPSLATE_SLAB, slabDrops(ModBlocks.SMOOTH_DEEPSLATE_SLAB));
 
     }
     public LootTable.Builder stoneDrops(Block withSilkTouch, Block withoutSilkTouch) {

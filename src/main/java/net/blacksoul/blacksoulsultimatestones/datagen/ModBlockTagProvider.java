@@ -1,11 +1,17 @@
 package net.blacksoul.blacksoulsultimatestones.datagen;
 
+import net.blacksoul.blacksoulsultimatestones.BlackSoulsUltimateStones;
 import net.blacksoul.blacksoulsultimatestones.block.ModBlocks;
+import net.blacksoul.blacksoulsultimatestones.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -117,6 +123,54 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.SMOOTH_STONE_SLAB)
                 .add(ModBlocks.SMOOTH_STONE_STAIRS)
                 .add(ModBlocks.SMOOTH_STONE_WALL)
+
+                //MOSSY STONE
+                .add(ModBlocks.MOSSY_STONE)
+                .add(ModBlocks.MOSSY_STONE_SLAB)
+                .add(ModBlocks.MOSSY_STONE_STAIRS)
+                .add(ModBlocks.MOSSY_STONE_WALL)
+
+                //MOSSY STONE PILLAR
+                .add(ModBlocks.MOSSY_STONE_PILLAR)
+
+                //MOSSY STONE TILES
+                .add(ModBlocks.MOSSY_STONE_TILES)
+                .add(ModBlocks.MOSSY_STONE_TILE_SLAB)
+                .add(ModBlocks.MOSSY_STONE_TILE_STAIRS)
+                .add(ModBlocks.MOSSY_STONE_TILE_WALL)
+
+                //CHISELED MOSSY STONE
+                .add(ModBlocks.CHISELED_MOSSY_STONE)
+
+                //CRACKED MOSSY STONE BRICKS
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS)
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_WALL)
+
+                //CUT MOSSY STONE
+                .add(ModBlocks.CUT_MOSSY_STONE)
+                .add(ModBlocks.CUT_MOSSY_STONE_SLAB)
+                .add(ModBlocks.CUT_MOSSY_STONE_STAIRS)
+                .add(ModBlocks.CUT_MOSSY_STONE_WALL)
+
+                //DARK MOSSY STONE
+                .add(ModBlocks.DARK_MOSSY_STONE)
+                .add(ModBlocks.DARK_MOSSY_STONE_SLAB)
+                .add(ModBlocks.DARK_MOSSY_STONE_STAIRS)
+                .add(ModBlocks.DARK_MOSSY_STONE_WALL)
+
+                //POLISHED MOSSY STONE
+                .add(ModBlocks.POLISHED_MOSSY_STONE)
+                .add(ModBlocks.POLISHED_MOSSY_STONE_SLAB)
+                .add(ModBlocks.POLISHED_MOSSY_STONE_STAIRS)
+                .add(ModBlocks.POLISHED_MOSSY_STONE_WALL)
+
+                //SMOOTH MOSSY STONE
+                .add(ModBlocks.SMOOTH_MOSSY_STONE)
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_SLAB)
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_STAIRS)
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_WALL)
 
                 //ANDESITE
                 .add(Blocks.ANDESITE)
@@ -278,7 +332,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.SMOOTH_GRANITE)
                 .add(ModBlocks.SMOOTH_GRANITE_SLAB)
                 .add(ModBlocks.SMOOTH_GRANITE_STAIRS)
-                .add(ModBlocks.SMOOTH_GRANITE_WALL);
+                .add(ModBlocks.SMOOTH_GRANITE_WALL)
+
+                //DEEPSLATE
+
+                //CRACKED DEEPSLATE BRICKS
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_WALL)
+
+                //DARK DEEPSLATE
+                .add(ModBlocks.DARK_DEEPSLATE)
+                .add(ModBlocks.DARK_DEEPSLATE_SLAB)
+                .add(ModBlocks.DARK_DEEPSLATE_STAIRS)
+                .add(ModBlocks.DARK_DEEPSLATE_WALL)
+
+                //DEEPSLATE PILLAR
+                .add(ModBlocks.DEEPSLATE_PILLAR)
+
+                //SMOOTH DEEPSLATE
+                .add(ModBlocks.SMOOTH_DEEPSLATE)
+                .add(ModBlocks.SMOOTH_DEEPSLATE_SLAB)
+                .add(ModBlocks.SMOOTH_DEEPSLATE_STAIRS)
+                .add(ModBlocks.SMOOTH_DEEPSLATE_WALL);
 
         valueLookupBuilder(BlockTags.WALLS)
                 //SMOOTHSTONE
@@ -328,6 +404,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
 
                 //SMOOTH STONE
                 .add(ModBlocks.SMOOTH_STONE_WALL)
+
+                //MOSSY STONE
+                .add(ModBlocks.MOSSY_STONE_WALL)
+
+                //MOSSY STONE TILES
+                .add(ModBlocks.MOSSY_STONE_TILE_WALL)
+
+                //CRACKED MOSSY STONE BRICKS
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_WALL)
+
+                //CUT MOSSY STONE
+                .add(ModBlocks.CUT_MOSSY_STONE_WALL)
+
+                //DARK MOSSY STONE
+                .add(ModBlocks.DARK_MOSSY_STONE_WALL)
+
+                //POLISHED MOSSY STONE
+                .add(ModBlocks.POLISHED_MOSSY_STONE_WALL)
+
+                //SMOOTH MOSSY STONE
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_WALL)
 
                 //ANDESITE
 
@@ -405,7 +502,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.POLISHED_GRANITE_WALL)
 
                 //SMOOTH GRANITE
-                .add(ModBlocks.SMOOTH_GRANITE_WALL);
+                .add(ModBlocks.SMOOTH_GRANITE_WALL)
+
+                //DEEPSLATE
+
+                //CRACKED DEEPSLATE BRICKS
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_WALL)
+
+                //CUT DEEPSLATE
+                .add(ModBlocks.CUT_DEEPSLATE_WALL)
+
+                //DARK DEEPSLATE
+                .add(ModBlocks.DARK_DEEPSLATE_WALL)
+
+                //SMOOTH DEEPSLATE
+                .add(ModBlocks.SMOOTH_DEEPSLATE_WALL);
 
         valueLookupBuilder(BlockTags.STAIRS)
                 //SMOOTHSTONE
@@ -434,6 +545,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
 
                 //SMOOTH SMOOTHSTONE
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS)
+
+                //MOSSY STONE
+                .add(ModBlocks.MOSSY_STONE_STAIRS)
+
+                //MOSSY STONE TILES
+                .add(ModBlocks.MOSSY_STONE_TILE_STAIRS)
+
+                //CRACKED MOSSY STONE BRICKS
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_STAIRS)
+
+                //CUT MOSSY STONE
+                .add(ModBlocks.CUT_MOSSY_STONE_STAIRS)
+
+                //DARK MOSSY STONE
+                .add(ModBlocks.DARK_MOSSY_STONE_STAIRS)
+
+                //POLISHED MOSSY STONE
+                .add(ModBlocks.POLISHED_MOSSY_STONE_STAIRS)
+
+                //SMOOTH MOSSY STONE
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_STAIRS)
 
                 //STONE
 
@@ -522,7 +654,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.DARK_GRANITE_STAIRS)
 
                 //SMOOTH GRANITE
-                .add(ModBlocks.SMOOTH_GRANITE_STAIRS);
+                .add(ModBlocks.SMOOTH_GRANITE_STAIRS)
+
+                //DEEPSLATE
+
+                //CRACKED DEEPSLATE BRICKS
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_STAIRS)
+
+                //CUT DEEPSLATE
+                .add(ModBlocks.CUT_DEEPSLATE_STAIRS)
+
+                //DARK DEEPSLATE
+                .add(ModBlocks.DARK_DEEPSLATE_STAIRS)
+
+                //SMOOTH DEEPSLATE
+                .add(ModBlocks.SMOOTH_DEEPSLATE_STAIRS);
 
         valueLookupBuilder(BlockTags.SLABS)
                 //SMOOTHSTONE
@@ -550,6 +696,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
 
                 //SMOOTH SMOOTHSTONE
                 .add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB)
+
+                //MOSSY STONE
+                .add(ModBlocks.MOSSY_STONE_SLAB)
+
+                //MOSSY STONE TILES
+                .add(ModBlocks.MOSSY_STONE_TILE_SLAB)
+
+                //CRACKED MOSSY STONE BRICKS
+                .add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_SLAB)
+
+                //CUT MOSSY STONE
+                .add(ModBlocks.CUT_MOSSY_STONE_SLAB)
+
+                //DARK MOSSY STONE
+                .add(ModBlocks.DARK_MOSSY_STONE_SLAB)
+
+                //POLISHED MOSSY STONE
+                .add(ModBlocks.POLISHED_MOSSY_STONE_SLAB)
+
+                //SMOOTH MOSSY STONE
+                .add(ModBlocks.SMOOTH_MOSSY_STONE_SLAB)
 
                 //STONE
 
@@ -638,6 +805,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
                 .add(ModBlocks.DARK_GRANITE_SLAB)
 
                 //SMOOTH GRANITE
-                .add(ModBlocks.SMOOTH_GRANITE_SLAB);
+                .add(ModBlocks.SMOOTH_GRANITE_SLAB)
+
+                //DEEPSLATE
+
+                //CRACKED DEEPSLATE BRICKS
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICK_SLAB)
+
+                //CUT DEEPSLATE
+                .add(ModBlocks.CUT_DEEPSLATE_SLAB)
+
+                //DARK DEEPSLATE
+                .add(ModBlocks.DARK_DEEPSLATE_SLAB)
+
+                //SMOOTH DEEPSLATE
+                .add(ModBlocks.SMOOTH_DEEPSLATE_SLAB);
+
+        valueLookupBuilder(ModTags.Blocks.MOSSY_BLOCK_CRAFTERS)
+                .add(Blocks.VINE)
+                .add(Blocks.MOSS_BLOCK);
     }
 }

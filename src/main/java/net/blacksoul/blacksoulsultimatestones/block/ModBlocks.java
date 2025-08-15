@@ -601,6 +601,292 @@ public class ModBlocks {
                     .solid()
             ));
 
+    //MOSSY STONE
+    public static final Block MOSSY_STONE = registerBlock(
+            "mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_STAIRS = registerBlock(
+            "mossy_stone_stairs", properties  -> new StairsBlock(ModBlocks.MOSSY_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_SLAB = registerBlock(
+            "mossy_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_WALL = registerBlock(
+            "mossy_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //MOSSY STONE PILLAR
+    public static final Block MOSSY_STONE_PILLAR = registerBlock(
+            "mossy_stone_pillar", properties  -> new PillarBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    //MOSSY STONE TILES
+    public static final Block MOSSY_STONE_TILES = registerBlock(
+            "mossy_stone_tiles", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_TILE_STAIRS = registerBlock(
+            "mossy_stone_tile_stairs", properties  -> new StairsBlock(ModBlocks.MOSSY_STONE_TILES.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_TILE_SLAB = registerBlock(
+            "mossy_stone_tile_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block MOSSY_STONE_TILE_WALL = registerBlock(
+            "mossy_stone_tile_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //CHISELED MOSSY STONE
+    public static final Block CHISELED_MOSSY_STONE = registerBlock(
+            "chiseled_mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    //CRACKED MOSSY STONE BRICKS
+    public static final Block CRACKED_MOSSY_STONE_BRICKS = registerBlock(
+            "cracked_mossy_stone_bricks", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CRACKED_MOSSY_STONE_BRICK_STAIRS = registerBlock(
+            "cracked_mossy_stone_brick_stairs", properties  -> new StairsBlock(ModBlocks.CRACKED_MOSSY_STONE_BRICKS.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CRACKED_MOSSY_STONE_BRICK_SLAB = registerBlock(
+            "cracked_mossy_stone_brick_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CRACKED_MOSSY_STONE_BRICK_WALL = registerBlock(
+            "cracked_mossy_stone_brick_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //CUT MOSSY STONE
+    public static final Block CUT_MOSSY_STONE = registerBlock(
+            "cut_mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_MOSSY_STONE_STAIRS = registerBlock(
+            "cut_mossy_stone_stairs", properties  -> new StairsBlock(ModBlocks.CUT_MOSSY_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_MOSSY_STONE_SLAB = registerBlock(
+            "cut_mossy_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block CUT_MOSSY_STONE_WALL = registerBlock(
+            "cut_mossy_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //DARK MOSSY STONE
+    public static final Block DARK_MOSSY_STONE = registerBlock(
+            "dark_mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_MOSSY_STONE_STAIRS = registerBlock(
+            "dark_mossy_stone_stairs", properties  -> new StairsBlock(ModBlocks.DARK_MOSSY_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_MOSSY_STONE_SLAB = registerBlock(
+            "dark_mossy_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block DARK_MOSSY_STONE_WALL = registerBlock(
+            "dark_mossy_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //POLISHED MOSSY STONE
+    public static final Block POLISHED_MOSSY_STONE = registerBlock(
+            "polished_mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_MOSSY_STONE_STAIRS = registerBlock(
+            "polished_mossy_stone_stairs", properties  -> new StairsBlock(ModBlocks.POLISHED_MOSSY_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_MOSSY_STONE_SLAB = registerBlock(
+            "polished_mossy_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block POLISHED_MOSSY_STONE_WALL = registerBlock(
+            "polished_mossy_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
+    //SMOOTH MOSSY STONE
+    public static final Block SMOOTH_MOSSY_STONE = registerBlock(
+            "smooth_mossy_stone", properties  -> new Block(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_MOSSY_STONE_STAIRS = registerBlock(
+            "smooth_mossy_stone_stairs", properties  -> new StairsBlock(ModBlocks.SMOOTH_MOSSY_STONE.getDefaultState(), properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_MOSSY_STONE_SLAB = registerBlock(
+            "smooth_mossy_stone_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+            ));
+
+    public static final Block SMOOTH_MOSSY_STONE_WALL = registerBlock(
+            "smooth_mossy_stone_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .solid()
+            ));
+
     //ANDESITE
 
     //ANDESITE BRICKS
@@ -1498,6 +1784,161 @@ public class ModBlocks {
                     .solid()
             ));
 
+    //DEEPSLATE
+
+    //CRACKED DEEPSLATE BRICKS
+    public static final Block CRACKED_DEEPSLATE_BRICK_STAIRS = registerBlock(
+            "cracked_deepslate_brick_stairs", properties  -> new StairsBlock(Blocks.CRACKED_DEEPSLATE_BRICKS.getDefaultState(), properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block CRACKED_DEEPSLATE_BRICK_SLAB = registerBlock(
+            "cracked_deepslate_brick_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block CRACKED_DEEPSLATE_BRICK_WALL = registerBlock(
+            "cracked_deepslate_brick_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+                    .solid()
+            ));
+
+    //SMOOTH DEEPSLATE
+    public static final Block SMOOTH_DEEPSLATE = registerBlock(
+            "smooth_deepslate", properties  -> new Block(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block SMOOTH_DEEPSLATE_STAIRS = registerBlock(
+            "smooth_deepslate_stairs", properties  -> new StairsBlock(ModBlocks.SMOOTH_DEEPSLATE.getDefaultState(), properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block SMOOTH_DEEPSLATE_SLAB = registerBlock(
+            "smooth_deepslate_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block SMOOTH_DEEPSLATE_WALL = registerBlock(
+            "smooth_deepslate_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+                    .solid()
+            ));
+
+    //CUT DEEPSLATE
+    public static final Block CUT_DEEPSLATE = registerBlock(
+            "cut_deepslate", properties  -> new Block(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block CUT_DEEPSLATE_STAIRS = registerBlock(
+            "cut_deepslate_stairs", properties  -> new StairsBlock(ModBlocks.CUT_DEEPSLATE.getDefaultState(), properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block CUT_DEEPSLATE_SLAB = registerBlock(
+            "cut_deepslate_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block CUT_DEEPSLATE_WALL = registerBlock(
+            "cut_deepslate_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+                    .solid()
+            ));
+
+    //DARK DEEPSLATE
+    public static final Block DARK_DEEPSLATE = registerBlock(
+            "dark_deepslate", properties  -> new Block(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block DARK_DEEPSLATE_STAIRS = registerBlock(
+            "dark_deepslate_stairs", properties  -> new StairsBlock(ModBlocks.DARK_DEEPSLATE.getDefaultState(), properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block DARK_DEEPSLATE_SLAB = registerBlock(
+            "dark_deepslate_slab", properties  -> new SlabBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
+    public static final Block DARK_DEEPSLATE_WALL = registerBlock(
+            "dark_deepslate_wall", properties  -> new WallBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+                    .solid()
+            ));
+
+    //DEEPSLATE PILLAR
+    public static final Block DEEPSLATE_PILLAR = registerBlock(
+            "deepslate_pillar", properties  -> new PillarBlock(properties
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(3.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+            ));
+
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
        Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(BlackSoulsUltimateStones.MOD_ID, name))));
@@ -1524,11 +1965,44 @@ public class ModBlocks {
             entries.add(ModBlocks.SMOOTHSTONE_STAIRS);
             entries.add(ModBlocks.SMOOTHSTONE_WALL);
 
+            //COBBLED SMOOTHSTONE
+            entries.add(ModBlocks.COBBLED_SMOOTHSTONE);
+            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_STAIRS);
+            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_SLAB);
+            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_WALL);
+
+            //SMOOTH SMOOTHSTONE
+            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE);
+            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
+            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
+
+            //POLISHED SMOOTHSTONE
+            entries.add(ModBlocks.POLISHED_SMOOTHSTONE);
+            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_STAIRS);
+            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_SLAB);
+            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_WALL);
+
+            //CHISELED SMOOTHSTONE
+            entries.add(ModBlocks.CHISELED_SMOOTHSTONE);
+
+            //CUT SMOOTHSTONE
+            entries.add(ModBlocks.CUT_SMOOTHSTONE);
+            entries.add(ModBlocks.CUT_SMOOTHSTONE_STAIRS);
+            entries.add(ModBlocks.CUT_SMOOTHSTONE_SLAB);
+            entries.add(ModBlocks.CUT_SMOOTHSTONE_WALL);
+
             //SMOOTHSTONE BRICKS
             entries.add(ModBlocks.SMOOTHSTONE_BRICKS);
             entries.add(ModBlocks.SMOOTHSTONE_BRICK_STAIRS);
             entries.add(ModBlocks.SMOOTHSTONE_BRICK_SLAB);
             entries.add(ModBlocks.SMOOTHSTONE_BRICK_WALL);
+
+            //CRACKED SMOOTHSTONE BRICKS
+            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICKS);
+            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_WALL);
 
             //SMOOTHSTONE PILLAR
             entries.add(ModBlocks.SMOOTHSTONE_PILLAR);
@@ -1539,47 +2013,37 @@ public class ModBlocks {
             entries.add(ModBlocks.SMOOTHSTONE_TILE_SLAB);
             entries.add(ModBlocks.SMOOTHSTONE_TILE_WALL);
 
-            //CHISELED SMOOTHSTONE
-            entries.add(ModBlocks.CHISELED_SMOOTHSTONE);
-
-            //COBBLED SMOOTHSTONE
-            entries.add(ModBlocks.COBBLED_SMOOTHSTONE);
-            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_STAIRS);
-            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_SLAB);
-            entries.add(ModBlocks.COBBLED_SMOOTHSTONE_WALL);
-
-            //CRACKED SMOOTHSTONE BRICKS
-            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICKS);
-            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_STAIRS);
-            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_SLAB);
-            entries.add(ModBlocks.CRACKED_SMOOTHSTONE_BRICK_WALL);
-
-            //CUT SMOOTHSTONE
-            entries.add(ModBlocks.CUT_SMOOTHSTONE);
-            entries.add(ModBlocks.CUT_SMOOTHSTONE_STAIRS);
-            entries.add(ModBlocks.CUT_SMOOTHSTONE_SLAB);
-            entries.add(ModBlocks.CUT_SMOOTHSTONE_WALL);
-
             //DARK SMOOTHSTONE
             entries.add(ModBlocks.DARK_SMOOTHSTONE);
             entries.add(ModBlocks.DARK_SMOOTHSTONE_STAIRS);
             entries.add(ModBlocks.DARK_SMOOTHSTONE_SLAB);
             entries.add(ModBlocks.DARK_SMOOTHSTONE_WALL);
 
-            //POLISHED SMOOTHSTONE
-            entries.add(ModBlocks.POLISHED_SMOOTHSTONE);
-            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_STAIRS);
-            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_SLAB);
-            entries.add(ModBlocks.POLISHED_SMOOTHSTONE_WALL);
-
-            //SMOOTH SMOOTHSTONE
-            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE);
-            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
-            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
-            entries.add(ModBlocks.SMOOTH_SMOOTHSTONE_WALL);
-
             //STONE
             entries.add(ModBlocks.STONE_WALL);
+
+            //SMOOTH STONE
+            entries.add(ModBlocks.SMOOTH_STONE);
+            entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_STONE_SLAB);
+            entries.add(ModBlocks.SMOOTH_STONE_WALL);
+
+            //POLISHED STONE
+            entries.add(ModBlocks.POLISHED_STONE);
+            entries.add(ModBlocks.POLISHED_STONE_STAIRS);
+            entries.add(ModBlocks.POLISHED_STONE_SLAB);
+            entries.add(ModBlocks.POLISHED_STONE_WALL);
+
+            //CUT STONE
+            entries.add(ModBlocks.CUT_STONE);
+            entries.add(ModBlocks.CUT_STONE_STAIRS);
+            entries.add(ModBlocks.CUT_STONE_SLAB);
+            entries.add(ModBlocks.CUT_STONE_WALL);
+
+            //CRACKED STONE BRICKS
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_STONE_BRICK_WALL);
 
             //STONE PILLAR
             entries.add(ModBlocks.STONE_PILLAR);
@@ -1590,148 +2054,97 @@ public class ModBlocks {
             entries.add(ModBlocks.STONE_TILE_SLAB);
             entries.add(ModBlocks.STONE_TILE_WALL);
 
-            //CRACKED STONE BRICKS
-            entries.add(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
-            entries.add(ModBlocks.CRACKED_STONE_BRICK_SLAB);
-            entries.add(ModBlocks.CRACKED_STONE_BRICK_WALL);
-
-            //CUT STONE
-            entries.add(ModBlocks.CUT_STONE);
-            entries.add(ModBlocks.CUT_STONE_STAIRS);
-            entries.add(ModBlocks.CUT_STONE_SLAB);
-            entries.add(ModBlocks.CUT_STONE_WALL);
-
             //DARK STONE
             entries.add(ModBlocks.DARK_STONE);
             entries.add(ModBlocks.DARK_STONE_STAIRS);
             entries.add(ModBlocks.DARK_STONE_SLAB);
             entries.add(ModBlocks.DARK_STONE_WALL);
 
-            //POLISHED STONE
-            entries.add(ModBlocks.POLISHED_STONE);
-            entries.add(ModBlocks.POLISHED_STONE_STAIRS);
-            entries.add(ModBlocks.POLISHED_STONE_SLAB);
-            entries.add(ModBlocks.POLISHED_STONE_WALL);
+            //MOSSY STONE
+            entries.add(ModBlocks.MOSSY_STONE);
+            entries.add(ModBlocks.MOSSY_STONE_STAIRS);
+            entries.add(ModBlocks.MOSSY_STONE_SLAB);
+            entries.add(ModBlocks.MOSSY_STONE_WALL);
 
-            //SMOOTH STONE
-            entries.add(ModBlocks.SMOOTH_STONE);
-            entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
-            entries.add(ModBlocks.SMOOTH_STONE_SLAB);
-            entries.add(ModBlocks.SMOOTH_STONE_WALL);
+            //SMOOTH MOSSY STONE
+            entries.add(ModBlocks.SMOOTH_MOSSY_STONE);
+            entries.add(ModBlocks.SMOOTH_MOSSY_STONE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_MOSSY_STONE_SLAB);
+            entries.add(ModBlocks.SMOOTH_MOSSY_STONE_WALL);
 
-            //ANDESITE
+            //POLISHED MOSSY STONE
+            entries.add(ModBlocks.POLISHED_MOSSY_STONE);
+            entries.add(ModBlocks.POLISHED_MOSSY_STONE_STAIRS);
+            entries.add(ModBlocks.POLISHED_MOSSY_STONE_SLAB);
+            entries.add(ModBlocks.POLISHED_MOSSY_STONE_WALL);
 
-            //ANDESITE BRICKS
-            entries.add(ModBlocks.ANDESITE_BRICKS);
-            entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
-            entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
-            entries.add(ModBlocks.ANDESITE_BRICK_WALL);
+            //CHISELED MOSSY STONE
+            entries.add(ModBlocks.CHISELED_MOSSY_STONE);
 
-            //ANDESITE PILLAR
-            entries.add(ModBlocks.ANDESITE_PILLAR);
+            //CUT MOSSY STONE
+            entries.add(ModBlocks.CUT_MOSSY_STONE);
+            entries.add(ModBlocks.CUT_MOSSY_STONE_STAIRS);
+            entries.add(ModBlocks.CUT_MOSSY_STONE_SLAB);
+            entries.add(ModBlocks.CUT_MOSSY_STONE_WALL);
 
-            //ANDESITE TILES
-            entries.add(ModBlocks.ANDESITE_TILES);
-            entries.add(ModBlocks.ANDESITE_TILE_STAIRS);
-            entries.add(ModBlocks.ANDESITE_TILE_SLAB);
-            entries.add(ModBlocks.ANDESITE_TILE_WALL);
+            //CRACKED MOSSY STONE BRICKS
+            entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICKS);
+            entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_MOSSY_STONE_BRICK_WALL);
 
-            //CHISELED ANDESITE
-            entries.add(ModBlocks.CHISELED_ANDESITE);
+            //MOSSY STONE PILLAR
+            entries.add(ModBlocks.MOSSY_STONE_PILLAR);
 
-            //COBBLED ANDESITE
-            entries.add(ModBlocks.COBBLED_ANDESITE);
-            entries.add(ModBlocks.COBBLED_ANDESITE_STAIRS);
-            entries.add(ModBlocks.COBBLED_ANDESITE_SLAB);
-            entries.add(ModBlocks.COBBLED_ANDESITE_WALL);
+            //MOSSY STONE TILES
+            entries.add(ModBlocks.MOSSY_STONE_TILES);
+            entries.add(ModBlocks.MOSSY_STONE_TILE_STAIRS);
+            entries.add(ModBlocks.MOSSY_STONE_TILE_SLAB);
+            entries.add(ModBlocks.MOSSY_STONE_TILE_WALL);
 
-            //CRACKED ANDESITE BRICKS
-            entries.add(ModBlocks.CRACKED_ANDESITE_BRICKS);
-            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_STAIRS);
-            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_SLAB);
-            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_WALL);
-
-            //CUT ANDESITE
-            entries.add(ModBlocks.CUT_ANDESITE);
-            entries.add(ModBlocks.CUT_ANDESITE_STAIRS);
-            entries.add(ModBlocks.CUT_ANDESITE_SLAB);
-            entries.add(ModBlocks.CUT_ANDESITE_WALL);
-
-            //DARK ANDESITE
-            entries.add(ModBlocks.DARK_ANDESITE);
-            entries.add(ModBlocks.DARK_ANDESITE_STAIRS);
-            entries.add(ModBlocks.DARK_ANDESITE_SLAB);
-            entries.add(ModBlocks.DARK_ANDESITE_WALL);
-
-            //POLISHED ANDESITE
-            entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
-
-            //SMOOTH ANDESITE
-            entries.add(ModBlocks.SMOOTH_ANDESITE);
-            entries.add(ModBlocks.SMOOTH_ANDESITE_STAIRS);
-            entries.add(ModBlocks.SMOOTH_ANDESITE_SLAB);
-            entries.add(ModBlocks.SMOOTH_ANDESITE_WALL);
-
-            //DIORITE
-
-            //DIORITE BRICKS
-            entries.add(ModBlocks.DIORITE_BRICKS);
-            entries.add(ModBlocks.DIORITE_BRICK_STAIRS);
-            entries.add(ModBlocks.DIORITE_BRICK_SLAB);
-            entries.add(ModBlocks.DIORITE_BRICK_WALL);
-
-            //DIORITE PILLAR
-            entries.add(ModBlocks.DIORITE_PILLAR);
-
-            //DIORITE TILES
-            entries.add(ModBlocks.DIORITE_TILES);
-            entries.add(ModBlocks.DIORITE_TILE_STAIRS);
-            entries.add(ModBlocks.DIORITE_TILE_SLAB);
-            entries.add(ModBlocks.DIORITE_TILE_WALL);
-
-            //CHISELED DIORITE
-            entries.add(ModBlocks.CHISELED_DIORITE);
-
-            //COBBLED DIORITE
-            entries.add(ModBlocks.COBBLED_DIORITE);
-            entries.add(ModBlocks.COBBLED_DIORITE_STAIRS);
-            entries.add(ModBlocks.COBBLED_DIORITE_SLAB);
-            entries.add(ModBlocks.COBBLED_DIORITE_WALL);
-
-            //CRACKED DIORITE BRICKS
-            entries.add(ModBlocks.CRACKED_DIORITE_BRICKS);
-            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_STAIRS);
-            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_SLAB);
-            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_WALL);
-
-            //CUT DIORITE
-            entries.add(ModBlocks.CUT_DIORITE);
-            entries.add(ModBlocks.CUT_DIORITE_STAIRS);
-            entries.add(ModBlocks.CUT_DIORITE_SLAB);
-            entries.add(ModBlocks.CUT_DIORITE_WALL);
-
-            //DARK DIORITE
-            entries.add(ModBlocks.DARK_DIORITE);
-            entries.add(ModBlocks.DARK_DIORITE_STAIRS);
-            entries.add(ModBlocks.DARK_DIORITE_SLAB);
-            entries.add(ModBlocks.DARK_DIORITE_WALL);
-
-            //POLISHED DIORITE
-            entries.add(ModBlocks.POLISHED_DIORITE_WALL);
-
-            //SMOOTH DIORITE
-            entries.add(ModBlocks.SMOOTH_DIORITE);
-            entries.add(ModBlocks.SMOOTH_DIORITE_STAIRS);
-            entries.add(ModBlocks.SMOOTH_DIORITE_SLAB);
-            entries.add(ModBlocks.SMOOTH_DIORITE_WALL);
+            //DARK MOSSY STONE
+            entries.add(ModBlocks.DARK_MOSSY_STONE);
+            entries.add(ModBlocks.DARK_MOSSY_STONE_STAIRS);
+            entries.add(ModBlocks.DARK_MOSSY_STONE_SLAB);
+            entries.add(ModBlocks.DARK_MOSSY_STONE_WALL);
 
             //GRANITE
+
+            //COBBLED GRANITE
+            entries.add(ModBlocks.COBBLED_GRANITE);
+            entries.add(ModBlocks.COBBLED_GRANITE_STAIRS);
+            entries.add(ModBlocks.COBBLED_GRANITE_SLAB);
+            entries.add(ModBlocks.COBBLED_GRANITE_WALL);
+
+            //SMOOTH GRANITE
+            entries.add(ModBlocks.SMOOTH_GRANITE);
+            entries.add(ModBlocks.SMOOTH_GRANITE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_GRANITE_SLAB);
+            entries.add(ModBlocks.SMOOTH_GRANITE_WALL);
+
+            //POLISHED GRANITE
+            entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+
+            //CHISELED GRANITE
+            entries.add(ModBlocks.CHISELED_GRANITE);
+
+            //CUT GRANITE
+            entries.add(ModBlocks.CUT_GRANITE);
+            entries.add(ModBlocks.CUT_GRANITE_STAIRS);
+            entries.add(ModBlocks.CUT_GRANITE_SLAB);
+            entries.add(ModBlocks.CUT_GRANITE_WALL);
 
             //GRANITE BRICKS
             entries.add(ModBlocks.GRANITE_BRICKS);
             entries.add(ModBlocks.GRANITE_BRICK_STAIRS);
             entries.add(ModBlocks.GRANITE_BRICK_SLAB);
             entries.add(ModBlocks.GRANITE_BRICK_WALL);
+
+            //CRACKED GRANITE BRICKS
+            entries.add(ModBlocks.CRACKED_GRANITE_BRICKS);
+            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_WALL);
 
             //GRANITE PILLAR
             entries.add(ModBlocks.GRANITE_PILLAR);
@@ -1742,41 +2155,145 @@ public class ModBlocks {
             entries.add(ModBlocks.GRANITE_TILE_SLAB);
             entries.add(ModBlocks.GRANITE_TILE_WALL);
 
-            //CHISELED GRANITE
-            entries.add(ModBlocks.CHISELED_GRANITE);
-
-            //COBBLED GRANITE
-            entries.add(ModBlocks.COBBLED_GRANITE);
-            entries.add(ModBlocks.COBBLED_GRANITE_STAIRS);
-            entries.add(ModBlocks.COBBLED_GRANITE_SLAB);
-            entries.add(ModBlocks.COBBLED_GRANITE_WALL);
-
-            //CRACKED GRANITE BRICKS
-            entries.add(ModBlocks.CRACKED_GRANITE_BRICKS);
-            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_STAIRS);
-            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_SLAB);
-            entries.add(ModBlocks.CRACKED_GRANITE_BRICK_WALL);
-
-            //CUT GRANITE
-            entries.add(ModBlocks.CUT_GRANITE);
-            entries.add(ModBlocks.CUT_GRANITE_STAIRS);
-            entries.add(ModBlocks.CUT_GRANITE_SLAB);
-            entries.add(ModBlocks.CUT_GRANITE_WALL);
-
             //DARK GRANITE
             entries.add(ModBlocks.DARK_GRANITE);
             entries.add(ModBlocks.DARK_GRANITE_STAIRS);
             entries.add(ModBlocks.DARK_GRANITE_SLAB);
             entries.add(ModBlocks.DARK_GRANITE_WALL);
 
-            //POLISHED GRANITE
-            entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+            //DIORITE
 
-            //SMOOTH GRANITE
-            entries.add(ModBlocks.SMOOTH_GRANITE);
-            entries.add(ModBlocks.SMOOTH_GRANITE_STAIRS);
-            entries.add(ModBlocks.SMOOTH_GRANITE_SLAB);
-            entries.add(ModBlocks.SMOOTH_GRANITE_WALL);
+            //COBBLED DIORITE
+            entries.add(ModBlocks.COBBLED_DIORITE);
+            entries.add(ModBlocks.COBBLED_DIORITE_STAIRS);
+            entries.add(ModBlocks.COBBLED_DIORITE_SLAB);
+            entries.add(ModBlocks.COBBLED_DIORITE_WALL);
+
+            //SMOOTH DIORITE
+            entries.add(ModBlocks.SMOOTH_DIORITE);
+            entries.add(ModBlocks.SMOOTH_DIORITE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_DIORITE_SLAB);
+            entries.add(ModBlocks.SMOOTH_DIORITE_WALL);
+
+            //POLISHED DIORITE
+            entries.add(ModBlocks.POLISHED_DIORITE_WALL);
+
+            //CHISELED DIORITE
+            entries.add(ModBlocks.CHISELED_DIORITE);
+
+            //CUT DIORITE
+            entries.add(ModBlocks.CUT_DIORITE);
+            entries.add(ModBlocks.CUT_DIORITE_STAIRS);
+            entries.add(ModBlocks.CUT_DIORITE_SLAB);
+            entries.add(ModBlocks.CUT_DIORITE_WALL);
+
+            //DIORITE BRICKS
+            entries.add(ModBlocks.DIORITE_BRICKS);
+            entries.add(ModBlocks.DIORITE_BRICK_STAIRS);
+            entries.add(ModBlocks.DIORITE_BRICK_SLAB);
+            entries.add(ModBlocks.DIORITE_BRICK_WALL);
+
+            //CRACKED DIORITE BRICKS
+            entries.add(ModBlocks.CRACKED_DIORITE_BRICKS);
+            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_DIORITE_BRICK_WALL);
+
+            //DIORITE PILLAR
+            entries.add(ModBlocks.DIORITE_PILLAR);
+
+            //DIORITE TILES
+            entries.add(ModBlocks.DIORITE_TILES);
+            entries.add(ModBlocks.DIORITE_TILE_STAIRS);
+            entries.add(ModBlocks.DIORITE_TILE_SLAB);
+            entries.add(ModBlocks.DIORITE_TILE_WALL);
+
+            //DARK DIORITE
+            entries.add(ModBlocks.DARK_DIORITE);
+            entries.add(ModBlocks.DARK_DIORITE_STAIRS);
+            entries.add(ModBlocks.DARK_DIORITE_SLAB);
+            entries.add(ModBlocks.DARK_DIORITE_WALL);
+
+            //ANDESITE
+
+            //COBBLED ANDESITE
+            entries.add(ModBlocks.COBBLED_ANDESITE);
+            entries.add(ModBlocks.COBBLED_ANDESITE_STAIRS);
+            entries.add(ModBlocks.COBBLED_ANDESITE_SLAB);
+            entries.add(ModBlocks.COBBLED_ANDESITE_WALL);
+
+            //SMOOTH ANDESITE
+            entries.add(ModBlocks.SMOOTH_ANDESITE);
+            entries.add(ModBlocks.SMOOTH_ANDESITE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_ANDESITE_SLAB);
+            entries.add(ModBlocks.SMOOTH_ANDESITE_WALL);
+
+            //POLISHED ANDESITE
+            entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
+
+            //CHISELED ANDESITE
+            entries.add(ModBlocks.CHISELED_ANDESITE);
+
+            //CUT ANDESITE
+            entries.add(ModBlocks.CUT_ANDESITE);
+            entries.add(ModBlocks.CUT_ANDESITE_STAIRS);
+            entries.add(ModBlocks.CUT_ANDESITE_SLAB);
+            entries.add(ModBlocks.CUT_ANDESITE_WALL);
+
+            //ANDESITE BRICKS
+            entries.add(ModBlocks.ANDESITE_BRICKS);
+            entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
+            entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
+            entries.add(ModBlocks.ANDESITE_BRICK_WALL);
+
+            //CRACKED ANDESITE BRICKS
+            entries.add(ModBlocks.CRACKED_ANDESITE_BRICKS);
+            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_ANDESITE_BRICK_WALL);
+
+            //ANDESITE PILLAR
+            entries.add(ModBlocks.ANDESITE_PILLAR);
+
+            //ANDESITE TILES
+            entries.add(ModBlocks.ANDESITE_TILES);
+            entries.add(ModBlocks.ANDESITE_TILE_STAIRS);
+            entries.add(ModBlocks.ANDESITE_TILE_SLAB);
+            entries.add(ModBlocks.ANDESITE_TILE_WALL);
+
+            //DARK ANDESITE
+            entries.add(ModBlocks.DARK_ANDESITE);
+            entries.add(ModBlocks.DARK_ANDESITE_STAIRS);
+            entries.add(ModBlocks.DARK_ANDESITE_SLAB);
+            entries.add(ModBlocks.DARK_ANDESITE_WALL);
+
+            //DEEPSLATE
+
+            //SMOOTH DEEPSLATE
+            entries.add(ModBlocks.SMOOTH_DEEPSLATE);
+            entries.add(ModBlocks.SMOOTH_DEEPSLATE_STAIRS);
+            entries.add(ModBlocks.SMOOTH_DEEPSLATE_SLAB);
+            entries.add(ModBlocks.SMOOTH_DEEPSLATE_WALL);
+
+            //CUT DEEPSLATE
+            entries.add(ModBlocks.CUT_DEEPSLATE);
+            entries.add(ModBlocks.CUT_DEEPSLATE_STAIRS);
+            entries.add(ModBlocks.CUT_DEEPSLATE_SLAB);
+            entries.add(ModBlocks.CUT_DEEPSLATE_WALL);
+
+            //CRACKED DEEPSLATE BRICKS
+            entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICK_STAIRS);
+            entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICK_SLAB);
+            entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICK_WALL);
+
+            //DEEPSLATE PILLAR
+            entries.add(ModBlocks.DEEPSLATE_PILLAR);
+
+            //DARK DEEPSLATE
+            entries.add(ModBlocks.DARK_DEEPSLATE);
+            entries.add(ModBlocks.DARK_DEEPSLATE_STAIRS);
+            entries.add(ModBlocks.DARK_DEEPSLATE_SLAB);
+            entries.add(ModBlocks.DARK_DEEPSLATE_WALL);
         });
     }
 }

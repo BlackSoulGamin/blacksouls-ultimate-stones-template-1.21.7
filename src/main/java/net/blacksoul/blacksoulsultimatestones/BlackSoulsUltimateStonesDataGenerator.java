@@ -1,9 +1,6 @@
 package net.blacksoul.blacksoulsultimatestones;
 
-import net.blacksoul.blacksoulsultimatestones.datagen.ModBlockTagProvider;
-import net.blacksoul.blacksoulsultimatestones.datagen.ModLootTableProvider;
-import net.blacksoul.blacksoulsultimatestones.datagen.ModModelProvider;
-import net.blacksoul.blacksoulsultimatestones.datagen.ModRecipeProvider;
+import net.blacksoul.blacksoulsultimatestones.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -13,6 +10,7 @@ public class BlackSoulsUltimateStonesDataGenerator implements DataGeneratorEntry
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModBlockTagProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);

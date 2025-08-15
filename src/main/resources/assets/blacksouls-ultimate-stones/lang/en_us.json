@@ -1,5 +1,6 @@
 {
   "block.minecraft.smooth_stone" : "Smoothstone",
+  "block.minecraft.smooth_stone_slab" : "Smoothstone Slab",
   "block.blacksouls-ultimate-stones.smoothstone_stairs": "Smoothstone Stairs",
   "block.blacksouls-ultimate-stones.smoothstone_wall": "Smoothstone Wall",
 
@@ -80,6 +81,46 @@
   "block.blacksouls-ultimate-stones.smooth_stone_stairs": "Smooth Stone Stairs",
   "block.blacksouls-ultimate-stones.smooth_stone_slab": "Smooth Stone Slab",
   "block.blacksouls-ultimate-stones.smooth_stone_wall": "Smooth Stone Wall",
+
+
+  "block.blacksouls-ultimate-stones.mossy_stone" : "Mossy Stone",
+  "block.blacksouls-ultimate-stones.mossy_stone_slab" : "Mossy Stone Slab",
+  "block.blacksouls-ultimate-stones.mossy_stone_stairs": "Mossy Stone Stairs",
+  "block.blacksouls-ultimate-stones.mossy_stone_wall": "Mossy Stone Wall",
+
+  "block.blacksouls-ultimate-stones.mossy_stone_pillar": "Mossy Stone Pillar",
+
+  "block.blacksouls-ultimate-stones.mossy_stone_tiles": "Mossy Stone Tiles",
+  "block.blacksouls-ultimate-stones.mossy_stone_tile_stairs": "Mossy Stone Tile Stairs",
+  "block.blacksouls-ultimate-stones.mossy_stone_tile_slab": "Mossy Stone Tile Slab",
+  "block.blacksouls-ultimate-stones.mossy_stone_tile_wall": "Mossy_Stone Tile Wall",
+
+  "block.blacksouls-ultimate-stones.chiseled_mossy_stone": "Chiseled Mossy Stone",
+
+  "block.blacksouls-ultimate-stones.cracked_mossy_stone_bricks": "Cracked Mossy Stone Bricks",
+  "block.blacksouls-ultimate-stones.cracked_mossy_stone_brick_stairs": "Cracked Mossy Stone Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_mossy_stone_brick_slab": "Cracked Mossy Stone Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_mossy_stone_brick_wall": "Cracked Mossy Stone Brick Wall",
+
+  "block.blacksouls-ultimate-stones.cut_mossy_stone": "Cut Mossy Stone",
+  "block.blacksouls-ultimate-stones.cut_mossy_stone_stairs": "Cut Mossy Stone Stairs",
+  "block.blacksouls-ultimate-stones.cut_mossy_stone_slab": "Cut Mossy Stone Slab",
+  "block.blacksouls-ultimate-stones.cut_mossy_stone_wall": "Cut Mossy Stone Wall",
+
+  "block.blacksouls-ultimate-stones.dark_mossy_stone": "Dark Mossy Stone",
+  "block.blacksouls-ultimate-stones.dark_mossy_stone_stairs": "Dark Mossy Stone Stairs",
+  "block.blacksouls-ultimate-stones.dark_mossy_stone_slab": "Dark Mossy Stone Slab",
+  "block.blacksouls-ultimate-stones.dark_mossy_stone_wall": "Dark Mossy Stone Wall",
+
+  "block.blacksouls-ultimate-stones.polished_mossy_stone": "Polished Mossy Stone",
+  "block.blacksouls-ultimate-stones.polished_mossy_stone_stairs": "Polished Mossy Stone Stairs",
+  "block.blacksouls-ultimate-stones.polished_mossy_stone_slab": "Polished Mossy Stone Slab",
+  "block.blacksouls-ultimate-stones.polished_mossy_stone_wall": "Polished Mossy Stone Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_mossy_stone": "Smooth Mossy Stone",
+  "block.blacksouls-ultimate-stones.smooth_mossy_stone_stairs": "Smooth Mossy Stone Stairs",
+  "block.blacksouls-ultimate-stones.smooth_mossy_stone_slab": "Smooth Mossy Stone Slab",
+  "block.blacksouls-ultimate-stones.smooth_mossy_stone_wall": "Smooth Mossy Stone Wall",
 
 
   "block.blacksouls-ultimate-stones.andesite_bricks": "Andesite Bricks",
@@ -206,6 +247,28 @@
   "block.blacksouls-ultimate-stones.smooth_granite_stairs": "Smooth Granite Stairs",
   "block.blacksouls-ultimate-stones.smooth_granite_slab": "Smooth Granite Slab",
   "block.blacksouls-ultimate-stones.smooth_granite_wall": "Smooth Granite Wall",
+
+
+  "block.blacksouls-ultimate-stones.cracked_deepslate_brick_stairs": "Cracked Deepslate Brick Stairs",
+  "block.blacksouls-ultimate-stones.cracked_deepslate_brick_slab": "Cracked Deepslate Brick Slab",
+  "block.blacksouls-ultimate-stones.cracked_deepslate_brick_wall": "Cracked Deepslate Brick Wall",
+
+  "block.blacksouls-ultimate-stones.deepslate_pillar": "Deepslate Pillar",
+
+  "block.blacksouls-ultimate-stones.cut_deepslate": "Cut Deepslate",
+  "block.blacksouls-ultimate-stones.cut_deepslate_stairs": "Cut Deepslate Stairs",
+  "block.blacksouls-ultimate-stones.cut_deepslate_slab": "Cut Deepslate Slab",
+  "block.blacksouls-ultimate-stones.cut_deepslate_wall": "Cut Deepslate Wall",
+
+  "block.blacksouls-ultimate-stones.dark_deepslate": "Dark Deepslate",
+  "block.blacksouls-ultimate-stones.dark_deepslate_stairs": "Dark Deepslate Stairs",
+  "block.blacksouls-ultimate-stones.dark_deepslate_slab": "Dark Deepslate Slab",
+  "block.blacksouls-ultimate-stones.dark_deepslate_wall": "Dark Deepslate Wall",
+
+  "block.blacksouls-ultimate-stones.smooth_deepslate": "Smooth Deepslate",
+  "block.blacksouls-ultimate-stones.smooth_deepslate_stairs": "Smooth Deepslate Stairs",
+  "block.blacksouls-ultimate-stones.smooth_deepslate_slab": "Smooth Deepslate Slab",
+  "block.blacksouls-ultimate-stones.smooth_deepslate_wall": "Smooth Deepslate Wall",
 
   "itemgroup.blacksouls-ultimate-stones": "BlackSoul's Ultimate Stones"
 }
